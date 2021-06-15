@@ -123,6 +123,87 @@ hw2part2/fast:
 	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/build
 .PHONY : hw2part2/fast
 
+Auxiliaries.o: Auxiliaries.cpp.o
+
+.PHONY : Auxiliaries.o
+
+# target to build an object file
+Auxiliaries.cpp.o:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Auxiliaries.cpp.o
+.PHONY : Auxiliaries.cpp.o
+
+Auxiliaries.i: Auxiliaries.cpp.i
+
+.PHONY : Auxiliaries.i
+
+# target to preprocess a source file
+Auxiliaries.cpp.i:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Auxiliaries.cpp.i
+.PHONY : Auxiliaries.cpp.i
+
+Auxiliaries.s: Auxiliaries.cpp.s
+
+.PHONY : Auxiliaries.s
+
+# target to generate assembly for a file
+Auxiliaries.cpp.s:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Auxiliaries.cpp.s
+.PHONY : Auxiliaries.cpp.s
+
+Game.o: Game.cpp.o
+
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
+gameTest.o: gameTest.cpp.o
+
+.PHONY : gameTest.o
+
+# target to build an object file
+gameTest.cpp.o:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/gameTest.cpp.o
+.PHONY : gameTest.cpp.o
+
+gameTest.i: gameTest.cpp.i
+
+.PHONY : gameTest.i
+
+# target to preprocess a source file
+gameTest.cpp.i:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/gameTest.cpp.i
+.PHONY : gameTest.cpp.i
+
+gameTest.s: gameTest.cpp.s
+
+.PHONY : gameTest.s
+
+# target to generate assembly for a file
+gameTest.cpp.s:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/gameTest.cpp.s
+.PHONY : gameTest.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... hw2part2"
+	@echo "... Auxiliaries.o"
+	@echo "... Auxiliaries.i"
+	@echo "... Auxiliaries.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
+	@echo "... gameTest.o"
+	@echo "... gameTest.i"
+	@echo "... gameTest.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

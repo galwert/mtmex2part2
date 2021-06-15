@@ -82,13 +82,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/character.h">
+		<Unit filename="/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Auxiliaries.cpp">
+			<Option target="hw2part2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Auxiliaries.h">
+			<Option target="hw2part2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h">
+			<Option target="hw2part2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Exceptions.h">
+			<Option target="hw2part2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Game.cpp">
+			<Option target="hw2part2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Game.h">
+			<Option target="hw2part2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Soldier.h">
+			<Option target="hw2part2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/game.h">
+			<Option target="hw2part2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/gameTest.cpp">
 			<Option target="hw2part2"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/main.cpp">
-			<Option target="hw2part2"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/soldier.h">
 			<Option target="hw2part2"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/CMakeLists.txt">

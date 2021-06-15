@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Exceptions.h
+exception
+-
+string
+-
+
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/game.h
+
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/gameTest.cpp
+iostream
+-
+cassert
+-
+Exceptions.h
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Exceptions.h
+game.h
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/game.h
+
