@@ -21,12 +21,11 @@ namespace mtm
 
     public:
         virtual void reload() = 0;
-
-        bool lowerHealth(int power)
+        bool lowerHealth(int hit_points)
         {
-            if (this->health <= power)
+            if (this->health <= hit_points)
                 return true;
-            this->health -= power;
+            this->health -= hit_points;
             return false;
         }
         Team getTeam()
@@ -34,10 +33,23 @@ namespace mtm
             return this->team;
         }
         virtual char getLetter()=0;
-        int getPower()
+        int getPower() const
         {
             return power;
         }
+        void lowerAmmo()
+        {
+            this->ammo--;
+        }
+        int getAmmo() const
+        {
+            return this->ammo;
+        }
+        int getRange() const
+        {
+            return this->range;
+        }
+        virtual int getMaxMove()=0;
     };
 
 }

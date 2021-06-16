@@ -9,6 +9,8 @@
 #include "Exceptions.h"
 #include "Auxiliaries.h"
 #include "Soldier.h"
+#include "Medic.h"
+#include "Sniper.h"
 namespace mtm
 {
     class Game
@@ -31,13 +33,30 @@ namespace mtm
         static std::shared_ptr<Character> makeCharacter(CharacterType type, Team team,
                                                                units_t health, units_t ammo, units_t range, units_t power)
         {
+            if(health<=0||ammo<0||range<=0||power<0)
+            {
+                throw IllegalArgument();
+            }
             switch (type)
             {
                 case CharacterType::SOLDIER:
+                    {
                     return std::shared_ptr<Character>
                             (new Soldier(team, health, ammo, range, power));
+                }
+                case CharacterType::MEDIC:
+                    {
+                    return std::shared_ptr<Character>
+                            (new Medic(team, health, ammo, range, power));
+                }
+                case CharacterType::SNIPER:
+                    {
+                    return std::shared_ptr<Character>
+                            (new Sniper(team, health, ammo, range, power));
+                }
 
             }
+            return nullptr;
         }
 
         void move(const GridPoint &src_coordinates, const GridPoint &dst_coordinates);
@@ -50,7 +69,7 @@ namespace mtm
 
         bool isOver(Team *winningTeam = nullptr) const;
 
-        std::shared_ptr<Character> getCharacter(const GridPoint &dst_coordinates);
+        std::shared_ptr<Character> getCharacter(const GridPoint &dst_coordinates) const;
         int getWidth() const
         {
             return this->width;
@@ -59,23 +78,36 @@ namespace mtm
         {
             return this->height;
         }
+        void attackInSquare(GridPoint dst_coordinates,Team team,int power);
+
+        void isIllegalCell(GridPoint coordinates) const
+        {
+            if(this->width<=coordinates.col||coordinates.col<0||this->height<=coordinates.row||coordinates.row<0)
+            {
+                throw IllegalCell();
+            }
+        }
+
     };
+
     std::ostream& operator<<(std::ostream& os, const Game& game)
     {
-        std::string delimiter = std::string(2 * game.getWidth() + 1, '*');
-        os << delimiter << std::endl;
-        for(std::vector< std::shared_ptr<Character>> vec:*game.board)
+       std::string str;
+       for (int i = 0; i < game.height; i++)
         {
-            for(std::shared_ptr<Character> character_ptr:vec)
+            for (int j = 0; j < game.width; j++)
             {
-                if(character_ptr!= NULL)
+                if(game.board->at(i).at(j)== nullptr)
                 {
-                    os<<(*character_ptr).getTeam();
+                    str[i*game.width+j]=' ';
+                }
+                else
+                {
+                    str[i*game.width+j]=game.getCharacter(GridPoint(i,j))->getLetter();
                 }
             }
         }
-        os << delimiter;
-        return os;
+        return printGameBoard(os, str.c_str(), str.c_str()+(game.height * game.width), (unsigned int)game.width);
     }
 
 }

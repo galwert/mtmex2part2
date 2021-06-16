@@ -34,6 +34,10 @@ namespace mtm
                 return 'S';
             }
         }
+        int getMaxMove() override
+        {
+            return 3;
+        }
     };
 
 }

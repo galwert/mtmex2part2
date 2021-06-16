@@ -14,33 +14,67 @@ namespace mtm
     };
     class IllegalArgument: public Exception
     {
+    public:
         const char* what() noexcept
         {
             return "A game related error has occurred: IllegalArgument";
         }
     };
-    class IllegalCell
+    class IllegalCell: public Exception
     {
+    public:
+        const char* what() noexcept
+        {
+            return "A game related error has occurred: IllegalCell";
+        }
     };
-    class CellEmpty
+    class CellEmpty: public Exception
     {
+    public:
+        const char* what() noexcept
+        {
+            return "A game related error has occurred: CellEmpty";
+        }
     };
-    class MoveTooFar
+    class MoveTooFar: public Exception
     {
-
+    public:
+        const char* what() noexcept
+        {
+            return "A game related error has occurred: MoveTooFar";
+        }
     };
-    class CellOccupied
+    class CellOccupied: public Exception
     {
+    public:
+        const char* what() noexcept
+        {
+            return "A game related error has occurred: CellOccupied";
+        }
     };
-    class OutOfRange
+    class OutOfRange: public Exception
     {
+    public:
+        const char* what() noexcept
+        {
+            return "A game related error has occurred: OutOfRange";
+        }
     };
-    class OutOfAmmo
+    class OutOfAmmo: public Exception
     {
-
+    public:
+        const char* what() noexcept
+        {
+            return "A game related error has occurred: OutOfAmmo";
+        }
     };
-    class IllegalTarget
+    class IllegalTarget: public Exception
     {
+    public:
+        const char* what() noexcept
+        {
+            return "A game related error has occurred: IllegalTarget";
+        }
     };
 }
 

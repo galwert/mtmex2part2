@@ -37,8 +37,8 @@ namespace mtm {
     };
 
 
-    std::ostream &printGameBoard(std::ostream &os, const char *begin,
-                                 const char *end, unsigned int width);
+    std::ostream &printGameBoard(std::ostream &os,const char* begin,
+                             const  char*end, unsigned int width);
 }
 
 #endif

@@ -57,22 +57,9 @@ include CMakeFiles/hw2part2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hw2part2.dir/flags.make
 
-CMakeFiles/hw2part2.dir/main.cpp.o: CMakeFiles/hw2part2.dir/flags.make
-CMakeFiles/hw2part2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hw2part2.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw2part2.dir/main.cpp.o -c /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/main.cpp
-
-CMakeFiles/hw2part2.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw2part2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/main.cpp > CMakeFiles/hw2part2.dir/main.cpp.i
-
-CMakeFiles/hw2part2.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw2part2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/main.cpp -o CMakeFiles/hw2part2.dir/main.cpp.s
-
 CMakeFiles/hw2part2.dir/Auxiliaries.cpp.o: CMakeFiles/hw2part2.dir/flags.make
 CMakeFiles/hw2part2.dir/Auxiliaries.cpp.o: ../Auxiliaries.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hw2part2.dir/Auxiliaries.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hw2part2.dir/Auxiliaries.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw2part2.dir/Auxiliaries.cpp.o -c /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Auxiliaries.cpp
 
 CMakeFiles/hw2part2.dir/Auxiliaries.cpp.i: cmake_force
@@ -85,7 +72,7 @@ CMakeFiles/hw2part2.dir/Auxiliaries.cpp.s: cmake_force
 
 CMakeFiles/hw2part2.dir/gameTest.cpp.o: CMakeFiles/hw2part2.dir/flags.make
 CMakeFiles/hw2part2.dir/gameTest.cpp.o: ../gameTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw2part2.dir/gameTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hw2part2.dir/gameTest.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw2part2.dir/gameTest.cpp.o -c /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/gameTest.cpp
 
 CMakeFiles/hw2part2.dir/gameTest.cpp.i: cmake_force
@@ -98,7 +85,7 @@ CMakeFiles/hw2part2.dir/gameTest.cpp.s: cmake_force
 
 CMakeFiles/hw2part2.dir/Game.cpp.o: CMakeFiles/hw2part2.dir/flags.make
 CMakeFiles/hw2part2.dir/Game.cpp.o: ../Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hw2part2.dir/Game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw2part2.dir/Game.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw2part2.dir/Game.cpp.o -c /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Game.cpp
 
 CMakeFiles/hw2part2.dir/Game.cpp.i: cmake_force
@@ -111,7 +98,6 @@ CMakeFiles/hw2part2.dir/Game.cpp.s: cmake_force
 
 # Object files for target hw2part2
 hw2part2_OBJECTS = \
-"CMakeFiles/hw2part2.dir/main.cpp.o" \
 "CMakeFiles/hw2part2.dir/Auxiliaries.cpp.o" \
 "CMakeFiles/hw2part2.dir/gameTest.cpp.o" \
 "CMakeFiles/hw2part2.dir/Game.cpp.o"
@@ -119,13 +105,12 @@ hw2part2_OBJECTS = \
 # External object files for target hw2part2
 hw2part2_EXTERNAL_OBJECTS =
 
-hw2part2: CMakeFiles/hw2part2.dir/main.cpp.o
 hw2part2: CMakeFiles/hw2part2.dir/Auxiliaries.cpp.o
 hw2part2: CMakeFiles/hw2part2.dir/gameTest.cpp.o
 hw2part2: CMakeFiles/hw2part2.dir/Game.cpp.o
 hw2part2: CMakeFiles/hw2part2.dir/build.make
 hw2part2: CMakeFiles/hw2part2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable hw2part2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable hw2part2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hw2part2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,9 +4,21 @@
 CMakeFiles/hw2part2.dir/Auxiliaries.cpp.o: ../Auxiliaries.cpp
 CMakeFiles/hw2part2.dir/Auxiliaries.cpp.o: ../Auxiliaries.h
 
-CMakeFiles/hw2part2.dir/gameTest.cpp.o: ../Exceptions.h
-CMakeFiles/hw2part2.dir/gameTest.cpp.o: ../game.h
-CMakeFiles/hw2part2.dir/gameTest.cpp.o: ../gameTest.cpp
+CMakeFiles/hw2part2.dir/Game.cpp.o: ../Auxiliaries.h
+CMakeFiles/hw2part2.dir/Game.cpp.o: ../Character.h
+CMakeFiles/hw2part2.dir/Game.cpp.o: ../Exceptions.h
+CMakeFiles/hw2part2.dir/Game.cpp.o: ../Game.cpp
+CMakeFiles/hw2part2.dir/Game.cpp.o: ../Game.h
+CMakeFiles/hw2part2.dir/Game.cpp.o: ../Medic.h
+CMakeFiles/hw2part2.dir/Game.cpp.o: ../Sniper.h
+CMakeFiles/hw2part2.dir/Game.cpp.o: ../Soldier.h
 
-CMakeFiles/hw2part2.dir/main.cpp.o: ../main.cpp
+CMakeFiles/hw2part2.dir/gameTest.cpp.o: ../Auxiliaries.h
+CMakeFiles/hw2part2.dir/gameTest.cpp.o: ../Character.h
+CMakeFiles/hw2part2.dir/gameTest.cpp.o: ../Exceptions.h
+CMakeFiles/hw2part2.dir/gameTest.cpp.o: ../Game.h
+CMakeFiles/hw2part2.dir/gameTest.cpp.o: ../Medic.h
+CMakeFiles/hw2part2.dir/gameTest.cpp.o: ../Sniper.h
+CMakeFiles/hw2part2.dir/gameTest.cpp.o: ../Soldier.h
+CMakeFiles/hw2part2.dir/gameTest.cpp.o: ../gameTest.cpp
 

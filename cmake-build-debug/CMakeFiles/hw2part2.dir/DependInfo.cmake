@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Auxiliaries.cpp" "/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles/hw2part2.dir/Auxiliaries.cpp.o"
   "/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Game.cpp" "/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles/hw2part2.dir/Game.cpp.o"
   "/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/gameTest.cpp" "/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles/hw2part2.dir/gameTest.cpp.o"
-  "/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/main.cpp" "/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles/hw2part2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
