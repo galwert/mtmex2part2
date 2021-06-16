@@ -17,9 +17,9 @@ namespace mtm
         {
 
         }
-        ~Character() = default;
 
     public:
+        ~Character() = default;
         virtual void reload() = 0;
         bool lowerHealth(int hit_points)
         {
@@ -37,7 +37,7 @@ namespace mtm
         {
             return power;
         }
-        void lowerAmmo()
+        virtual void lowerAmmo()
         {
             this->ammo--;
         }
@@ -50,6 +50,11 @@ namespace mtm
             return this->range;
         }
         virtual int getMaxMove()=0;
+        virtual int hitMultiplier()
+        {
+            return 0;
+        }
+        virtual Character* clone() const=0;
     };
 
 }

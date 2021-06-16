@@ -15,7 +15,7 @@ namespace mtm
     class IllegalArgument: public Exception
     {
     public:
-        const char* what() noexcept
+        const char* what() const noexcept override
         {
             return "A game related error has occurred: IllegalArgument";
         }
@@ -23,7 +23,7 @@ namespace mtm
     class IllegalCell: public Exception
     {
     public:
-        const char* what() noexcept
+        const char* what() const noexcept override
         {
             return "A game related error has occurred: IllegalCell";
         }
@@ -31,7 +31,7 @@ namespace mtm
     class CellEmpty: public Exception
     {
     public:
-        const char* what() noexcept
+        const char* what() const noexcept override
         {
             return "A game related error has occurred: CellEmpty";
         }
@@ -39,7 +39,7 @@ namespace mtm
     class MoveTooFar: public Exception
     {
     public:
-        const char* what() noexcept
+        const char* what() const noexcept override
         {
             return "A game related error has occurred: MoveTooFar";
         }
@@ -47,7 +47,7 @@ namespace mtm
     class CellOccupied: public Exception
     {
     public:
-        const char* what() noexcept
+        const char* what() const noexcept override
         {
             return "A game related error has occurred: CellOccupied";
         }
@@ -55,7 +55,7 @@ namespace mtm
     class OutOfRange: public Exception
     {
     public:
-        const char* what() noexcept
+        const char* what() const noexcept override
         {
             return "A game related error has occurred: OutOfRange";
         }
@@ -63,7 +63,7 @@ namespace mtm
     class OutOfAmmo: public Exception
     {
     public:
-        const char* what() noexcept
+        const char* what() const noexcept override
         {
             return "A game related error has occurred: OutOfAmmo";
         }
@@ -71,7 +71,7 @@ namespace mtm
     class IllegalTarget: public Exception
     {
     public:
-        const char* what() noexcept
+        const char* what() const noexcept override
         {
             return "A game related error has occurred: IllegalTarget";
         }

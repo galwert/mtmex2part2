@@ -90,25 +90,6 @@ namespace mtm
 
     };
 
-    std::ostream& operator<<(std::ostream& os, const Game& game)
-    {
-       std::string str;
-       for (int i = 0; i < game.height; i++)
-        {
-            for (int j = 0; j < game.width; j++)
-            {
-                if(game.board->at(i).at(j)== nullptr)
-                {
-                    str[i*game.width+j]=' ';
-                }
-                else
-                {
-                    str[i*game.width+j]=game.getCharacter(GridPoint(i,j))->getLetter();
-                }
-            }
-        }
-        return printGameBoard(os, str.c_str(), str.c_str()+(game.height * game.width), (unsigned int)game.width);
-    }
 
 }
 #endif //SOLDIER_H_GAME_H

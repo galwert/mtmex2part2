@@ -37,6 +37,10 @@ namespace mtm
         {
             return 5;
         }
+        Character* clone() const override
+        {
+            return new Medic(this->team, this->health,this->ammo,this->range,this->power);
+        }
     };
 
 }

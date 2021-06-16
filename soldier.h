@@ -38,6 +38,11 @@ namespace mtm
         {
             return 3;
         }
+        Character* clone() const override
+        {
+            return new Soldier(this->team, this->health,this->ammo,this->range,this->power);
+        }
+
     };
 
 }
