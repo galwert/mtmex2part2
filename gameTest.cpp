@@ -136,7 +136,7 @@ void example2() {
     g1.move(GridPoint(3,0), GridPoint(3,3));
 
     std::cout << g1 << std::endl; // changed
-    std::cout << g2 << "g2"<<std::endl; // has not changed
+    std::cout << g2 <<std::endl; // has not changed
 
     try {
         g1.attack(GridPoint(3,3), GridPoint(3,6)); // soldier has 0 ammo
