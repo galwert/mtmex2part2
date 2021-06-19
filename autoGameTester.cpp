@@ -47,7 +47,7 @@ void doReload(Game& game)
     game.reload(GridPoint(ypos, xpos));
 }
 
-/*int main()
+int main()
 {
     int width = 0;
     int height = 0;
@@ -88,4 +88,4 @@ void doReload(Game& game)
             cout << e.what() << endl;
         }
     }
-}*/
+}
