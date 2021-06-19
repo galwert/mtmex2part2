@@ -132,7 +132,10 @@ namespace mtm {
             case 'm':
             case 'M':
                 {
-                attackAsMedic(dst_coordinates, src_coordinates);
+                if(attackAsMedic(dst_coordinates, src_coordinates))
+                {
+                    return;
+                }
                 break;
             }
             case 'n':
@@ -169,7 +172,7 @@ namespace mtm {
             }
         }
     }
-    void Game::attackAsMedic(GridPoint dst_coordinates,GridPoint src_coordinates)
+    bool Game::attackAsMedic(GridPoint dst_coordinates,GridPoint src_coordinates)
     {
         if (getCharacter(dst_coordinates) == nullptr || dst_coordinates == src_coordinates)
         {
@@ -179,7 +182,7 @@ namespace mtm {
         {
             this->getCharacter(dst_coordinates)->lowerHealth(-this->getCharacter
                     (src_coordinates)->getPower());
-            return;
+            return true;
         }
         else
         {
@@ -189,6 +192,7 @@ namespace mtm {
                 this->board.at(dst_coordinates.row).at(dst_coordinates.col) = nullptr;
             }
         }
+        return false;
     }
     void Game::attackAsSniper(GridPoint dst_coordinates,GridPoint src_coordinates)
     {

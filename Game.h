@@ -60,7 +60,7 @@ namespace mtm
         void move(const GridPoint &src_coordinates, const GridPoint &dst_coordinates);
         void attackAsSniper(GridPoint dst_coordinates,GridPoint src_coordinates);
         void attack(const GridPoint &src_coordinates, const GridPoint &dst_coordinates);
-        void attackAsMedic(GridPoint dst_coordinates,GridPoint src_coordinates);
+        bool attackAsMedic(GridPoint dst_coordinates,GridPoint src_coordinates);
         void reload(const GridPoint &coordinates);
         void attackAsSoldier(GridPoint dst_coordinates,GridPoint src_coordinates,std::shared_ptr<Character> character);
         friend std::ostream& operator<<(std::ostream& os, const Game& game);
