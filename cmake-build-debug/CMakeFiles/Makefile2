@@ -74,12 +74,12 @@ clean: CMakeFiles/hw2part2.dir/clean
 CMakeFiles/hw2part2.dir/all:
 	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/depend
 	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target hw2part2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target hw2part2"
 .PHONY : CMakeFiles/hw2part2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hw2part2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hw2part2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hw2part2.dir/rule

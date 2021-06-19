@@ -4,6 +4,9 @@
 CMakeFiles/hw2part2.dir/Auxiliaries.cpp.o
  /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Auxiliaries.cpp
  /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Auxiliaries.h
+CMakeFiles/hw2part2.dir/Exceptions.cpp.o
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Exceptions.cpp
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Exceptions.h
 CMakeFiles/hw2part2.dir/Game.cpp.o
  /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Auxiliaries.h
  /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h
@@ -13,6 +16,30 @@ CMakeFiles/hw2part2.dir/Game.cpp.o
  /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Medic.h
  /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Sniper.h
  /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Soldier.h
+CMakeFiles/hw2part2.dir/Medic.cpp.o
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Auxiliaries.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Medic.cpp
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Medic.h
+CMakeFiles/hw2part2.dir/Sniper.cpp.o
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Auxiliaries.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Sniper.cpp
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Sniper.h
+CMakeFiles/hw2part2.dir/Soldier.cpp.o
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Auxiliaries.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Soldier.cpp
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Soldier.h
+CMakeFiles/hw2part2.dir/autoGameTester.cpp.o
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Auxiliaries.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Exceptions.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Game.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Medic.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Sniper.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Soldier.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/autoGameTester.cpp
 CMakeFiles/hw2part2.dir/gameTest.cpp.o
  /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Auxiliaries.h
  /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h
@@ -22,3 +49,12 @@ CMakeFiles/hw2part2.dir/gameTest.cpp.o
  /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Sniper.h
  /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Soldier.h
  /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/gameTest.cpp
+CMakeFiles/hw2part2.dir/partC_tester.cpp.o
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Auxiliaries.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Exceptions.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Game.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Medic.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Sniper.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Soldier.h
+ /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/partC_tester.cpp

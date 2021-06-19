@@ -4,10 +4,8 @@
 #define SOLDIER_H_GAME_H
 
 #include <iostream>
-#include <memory>
 #include <vector>
 #include "Exceptions.h"
-#include "Auxiliaries.h"
 #include "Soldier.h"
 #include "Medic.h"
 #include "Sniper.h"
@@ -18,7 +16,7 @@ namespace mtm
     private:
         int height;
         int width;
-        std::vector<std::vector< std::shared_ptr<Character>>> *board;
+        std::vector<std::vector< std::shared_ptr<Character>>> board;
     public:
         Game(int height, int width);
 
@@ -33,7 +31,7 @@ namespace mtm
         static std::shared_ptr<Character> makeCharacter(CharacterType type, Team team,
                                                                units_t health, units_t ammo, units_t range, units_t power)
         {
-            if(health<=0||ammo<0||range<=0||power<0)
+            if(health<=0||ammo<0||range<0||power<0)
             {
                 throw IllegalArgument();
             }
@@ -60,24 +58,16 @@ namespace mtm
         }
 
         void move(const GridPoint &src_coordinates, const GridPoint &dst_coordinates);
-
+        void attackAsSniper(GridPoint dst_coordinates,GridPoint src_coordinates);
         void attack(const GridPoint &src_coordinates, const GridPoint &dst_coordinates);
-
+        void attackAsMedic(GridPoint dst_coordinates,GridPoint src_coordinates);
         void reload(const GridPoint &coordinates);
-
+        void attackAsSoldier(GridPoint dst_coordinates,GridPoint src_coordinates,std::shared_ptr<Character> character);
         friend std::ostream& operator<<(std::ostream& os, const Game& game);
 
         bool isOver(Team *winningTeam = nullptr) const;
 
         std::shared_ptr<Character> getCharacter(const GridPoint &dst_coordinates) const;
-        int getWidth() const
-        {
-            return this->width;
-        }
-        int getHeigth() const
-        {
-            return this->height;
-        }
         void attackInSquare(GridPoint dst_coordinates,Team team,int power);
 
         void isIllegalCell(GridPoint coordinates) const

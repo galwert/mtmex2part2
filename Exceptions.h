@@ -15,66 +15,42 @@ namespace mtm
     class IllegalArgument: public Exception
     {
     public:
-        const char* what() const noexcept override
-        {
-            return "A game related error has occurred: IllegalArgument";
-        }
+        const char* what() const noexcept override;
     };
     class IllegalCell: public Exception
     {
     public:
-        const char* what() const noexcept override
-        {
-            return "A game related error has occurred: IllegalCell";
-        }
+        const char* what() const noexcept override;
     };
     class CellEmpty: public Exception
     {
     public:
-        const char* what() const noexcept override
-        {
-            return "A game related error has occurred: CellEmpty";
-        }
+        const char* what() const noexcept override;
     };
     class MoveTooFar: public Exception
     {
     public:
-        const char* what() const noexcept override
-        {
-            return "A game related error has occurred: MoveTooFar";
-        }
+        const char* what() const noexcept override;
     };
     class CellOccupied: public Exception
     {
     public:
-        const char* what() const noexcept override
-        {
-            return "A game related error has occurred: CellOccupied";
-        }
+        const char* what() const noexcept override;
     };
     class OutOfRange: public Exception
     {
     public:
-        const char* what() const noexcept override
-        {
-            return "A game related error has occurred: OutOfRange";
-        }
+        const char* what() const noexcept override;
     };
     class OutOfAmmo: public Exception
     {
     public:
-        const char* what() const noexcept override
-        {
-            return "A game related error has occurred: OutOfAmmo";
-        }
+        const char* what() const noexcept override;
     };
     class IllegalTarget: public Exception
     {
     public:
-        const char* what() const noexcept override
-        {
-            return "A game related error has occurred: IllegalTarget";
-        }
+        const char* what() const noexcept override;
     };
 }
 

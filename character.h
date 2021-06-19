@@ -1,24 +1,24 @@
 
 #ifndef HW2PART2_CHARACTER_H
 #define HW2PART2_CHARACTER_H
+#include "Auxiliaries.h"
+#include <memory>
 namespace mtm
 {
     class Character
             {
     protected:
+        Team team;
         int health;
         int ammo;
         int range;
         int power;
-        Team team;
-
+    public:
         Character(Team team, int health, int ammo, int range, int power) :
             team(team), health(health), ammo(ammo), range(range), power(power)
         {
 
         }
-
-    public:
         ~Character() = default;
         virtual void reload() = 0;
         bool lowerHealth(int hit_points)
@@ -54,7 +54,7 @@ namespace mtm
         {
             return 0;
         }
-        virtual Character* clone() const=0;
+        virtual std::shared_ptr<Character> clone() const=0;
     };
 
 }

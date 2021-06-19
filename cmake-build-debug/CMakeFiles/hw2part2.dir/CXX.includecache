@@ -15,6 +15,10 @@ cmath
 -
 
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h
+Auxiliaries.h
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Auxiliaries.h
+memory
+-
 
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Exceptions.h
 exception
@@ -25,20 +29,14 @@ string
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Game.cpp
 Game.h
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Game.h
-cmath
--
 
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Game.h
 iostream
--
-memory
 -
 vector
 -
 Exceptions.h
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Exceptions.h
-Auxiliaries.h
-/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Auxiliaries.h
 Soldier.h
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Soldier.h
 Medic.h
@@ -47,18 +45,14 @@ Sniper.h
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Sniper.h
 
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Medic.h
+Character.h
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h
 
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Sniper.h
+Character.h
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h
 
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Soldier.h
 Character.h
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h
-
-/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/gameTest.cpp
-iostream
--
-cassert
--
-Game.h
-/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Game.h
 

@@ -4,6 +4,7 @@
 
 #ifndef HW2PART2_SOLDIER_H
 #define HW2PART2_SOLDIER_H
+
 #include "Character.h"
 namespace mtm
 {
@@ -18,30 +19,10 @@ namespace mtm
 
         ~Soldier() = default;
 
-        void reload() override {
-            this->ammo += 3;
-        }
-
-
-        char getLetter() override
-        {
-            if(this->team==CROSSFITTERS)
-            {
-                return 's';
-            }
-            else
-            {
-                return 'S';
-            }
-        }
-        int getMaxMove() override
-        {
-            return 3;
-        }
-        Character* clone() const override
-        {
-            return new Soldier(this->team, this->health,this->ammo,this->range,this->power);
-        }
+        void reload() override;
+        char getLetter() override;
+        int getMaxMove() override;
+        std::shared_ptr<Character> clone() const override;
 
     };
 

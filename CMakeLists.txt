@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
-project(hw2part2)
+project(hw2part2  VERSION 0.1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 11)
-
-add_executable(hw2part2 Character.h Soldier.h Auxiliaries.h
-        Auxiliaries.cpp gameTest.cpp game.h Exceptions.h Game.h Game.cpp Game.cpp Medic.h Sniper.h)
+set(MTM_FLAGS_DEBUG "-std=c++11 --pedantic-errors -Wall -Werror")
+set(MTM_FLAGS_RELEASE "${MTM_FLAGS_DEBUG} -DNDEBUG")
+add_executable(hw2part2 Auxiliaries.cpp autoGameTester.cpp partC_tester.cpp gameTest.cpp Game.cpp Soldier.cpp Medic.cpp Sniper.cpp Exceptions.cpp)

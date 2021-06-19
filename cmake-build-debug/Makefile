@@ -150,6 +150,33 @@ Auxiliaries.cpp.s:
 	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Auxiliaries.cpp.s
 .PHONY : Auxiliaries.cpp.s
 
+Exceptions.o: Exceptions.cpp.o
+
+.PHONY : Exceptions.o
+
+# target to build an object file
+Exceptions.cpp.o:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Exceptions.cpp.o
+.PHONY : Exceptions.cpp.o
+
+Exceptions.i: Exceptions.cpp.i
+
+.PHONY : Exceptions.i
+
+# target to preprocess a source file
+Exceptions.cpp.i:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Exceptions.cpp.i
+.PHONY : Exceptions.cpp.i
+
+Exceptions.s: Exceptions.cpp.s
+
+.PHONY : Exceptions.s
+
+# target to generate assembly for a file
+Exceptions.cpp.s:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Exceptions.cpp.s
+.PHONY : Exceptions.cpp.s
+
 Game.o: Game.cpp.o
 
 .PHONY : Game.o
@@ -176,6 +203,114 @@ Game.s: Game.cpp.s
 Game.cpp.s:
 	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Game.cpp.s
 .PHONY : Game.cpp.s
+
+Medic.o: Medic.cpp.o
+
+.PHONY : Medic.o
+
+# target to build an object file
+Medic.cpp.o:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Medic.cpp.o
+.PHONY : Medic.cpp.o
+
+Medic.i: Medic.cpp.i
+
+.PHONY : Medic.i
+
+# target to preprocess a source file
+Medic.cpp.i:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Medic.cpp.i
+.PHONY : Medic.cpp.i
+
+Medic.s: Medic.cpp.s
+
+.PHONY : Medic.s
+
+# target to generate assembly for a file
+Medic.cpp.s:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Medic.cpp.s
+.PHONY : Medic.cpp.s
+
+Sniper.o: Sniper.cpp.o
+
+.PHONY : Sniper.o
+
+# target to build an object file
+Sniper.cpp.o:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Sniper.cpp.o
+.PHONY : Sniper.cpp.o
+
+Sniper.i: Sniper.cpp.i
+
+.PHONY : Sniper.i
+
+# target to preprocess a source file
+Sniper.cpp.i:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Sniper.cpp.i
+.PHONY : Sniper.cpp.i
+
+Sniper.s: Sniper.cpp.s
+
+.PHONY : Sniper.s
+
+# target to generate assembly for a file
+Sniper.cpp.s:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Sniper.cpp.s
+.PHONY : Sniper.cpp.s
+
+Soldier.o: Soldier.cpp.o
+
+.PHONY : Soldier.o
+
+# target to build an object file
+Soldier.cpp.o:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Soldier.cpp.o
+.PHONY : Soldier.cpp.o
+
+Soldier.i: Soldier.cpp.i
+
+.PHONY : Soldier.i
+
+# target to preprocess a source file
+Soldier.cpp.i:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Soldier.cpp.i
+.PHONY : Soldier.cpp.i
+
+Soldier.s: Soldier.cpp.s
+
+.PHONY : Soldier.s
+
+# target to generate assembly for a file
+Soldier.cpp.s:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Soldier.cpp.s
+.PHONY : Soldier.cpp.s
+
+autoGameTester.o: autoGameTester.cpp.o
+
+.PHONY : autoGameTester.o
+
+# target to build an object file
+autoGameTester.cpp.o:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/autoGameTester.cpp.o
+.PHONY : autoGameTester.cpp.o
+
+autoGameTester.i: autoGameTester.cpp.i
+
+.PHONY : autoGameTester.i
+
+# target to preprocess a source file
+autoGameTester.cpp.i:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/autoGameTester.cpp.i
+.PHONY : autoGameTester.cpp.i
+
+autoGameTester.s: autoGameTester.cpp.s
+
+.PHONY : autoGameTester.s
+
+# target to generate assembly for a file
+autoGameTester.cpp.s:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/autoGameTester.cpp.s
+.PHONY : autoGameTester.cpp.s
 
 gameTest.o: gameTest.cpp.o
 
@@ -204,6 +339,33 @@ gameTest.cpp.s:
 	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/gameTest.cpp.s
 .PHONY : gameTest.cpp.s
 
+partC_tester.o: partC_tester.cpp.o
+
+.PHONY : partC_tester.o
+
+# target to build an object file
+partC_tester.cpp.o:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/partC_tester.cpp.o
+.PHONY : partC_tester.cpp.o
+
+partC_tester.i: partC_tester.cpp.i
+
+.PHONY : partC_tester.i
+
+# target to preprocess a source file
+partC_tester.cpp.i:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/partC_tester.cpp.i
+.PHONY : partC_tester.cpp.i
+
+partC_tester.s: partC_tester.cpp.s
+
+.PHONY : partC_tester.s
+
+# target to generate assembly for a file
+partC_tester.cpp.s:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/partC_tester.cpp.s
+.PHONY : partC_tester.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +378,30 @@ help:
 	@echo "... Auxiliaries.o"
 	@echo "... Auxiliaries.i"
 	@echo "... Auxiliaries.s"
+	@echo "... Exceptions.o"
+	@echo "... Exceptions.i"
+	@echo "... Exceptions.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
+	@echo "... Medic.o"
+	@echo "... Medic.i"
+	@echo "... Medic.s"
+	@echo "... Sniper.o"
+	@echo "... Sniper.i"
+	@echo "... Sniper.s"
+	@echo "... Soldier.o"
+	@echo "... Soldier.i"
+	@echo "... Soldier.s"
+	@echo "... autoGameTester.o"
+	@echo "... autoGameTester.i"
+	@echo "... autoGameTester.s"
 	@echo "... gameTest.o"
 	@echo "... gameTest.i"
 	@echo "... gameTest.s"
+	@echo "... partC_tester.o"
+	@echo "... partC_tester.i"
+	@echo "... partC_tester.s"
 .PHONY : help
 
 

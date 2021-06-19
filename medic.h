@@ -4,7 +4,7 @@
 
 #ifndef AUXILIARIES_H_MEDIC_H
 #define AUXILIARIES_H_MEDIC_H
-
+#include "Character.h"
 namespace mtm
 {
     class Medic : public Character
@@ -17,30 +17,11 @@ namespace mtm
         }
         ~Medic() = default;
 
-        void reload() override {
-            this->ammo += 5;
-        }
+        void reload() override;
 
-
-        char getLetter() override
-        {
-            if(this->team==CROSSFITTERS)
-            {
-                return 'm';
-            }
-            else
-            {
-                return 'M';
-            }
-        }
-        int getMaxMove() override
-        {
-            return 5;
-        }
-        Character* clone() const override
-        {
-            return new Medic(this->team, this->health,this->ammo,this->range,this->power);
-        }
+        char getLetter() override;
+        int getMaxMove() override;
+        std::shared_ptr<Character> clone() const override;
     };
 
 }

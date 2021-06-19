@@ -10,10 +10,10 @@ using namespace mtm;
 void example1();
 void example2();
 
-int main() {
+/*int main() {
     example1();
     example2();
-}
+}*/
 
 void example1() {
     std::cout << "------example 1------" << std::endl;
