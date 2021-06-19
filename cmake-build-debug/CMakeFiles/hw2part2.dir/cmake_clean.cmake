@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hw2part2.dir/Auxiliaries.cpp.o"
+  "CMakeFiles/hw2part2.dir/Character.cpp.o"
   "CMakeFiles/hw2part2.dir/Exceptions.cpp.o"
   "CMakeFiles/hw2part2.dir/Game.cpp.o"
   "CMakeFiles/hw2part2.dir/Medic.cpp.o"

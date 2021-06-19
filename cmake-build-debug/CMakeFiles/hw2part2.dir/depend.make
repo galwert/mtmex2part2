@@ -4,6 +4,10 @@
 CMakeFiles/hw2part2.dir/Auxiliaries.cpp.o: ../Auxiliaries.cpp
 CMakeFiles/hw2part2.dir/Auxiliaries.cpp.o: ../Auxiliaries.h
 
+CMakeFiles/hw2part2.dir/Character.cpp.o: ../Auxiliaries.h
+CMakeFiles/hw2part2.dir/Character.cpp.o: ../Character.cpp
+CMakeFiles/hw2part2.dir/Character.cpp.o: ../Character.h
+
 CMakeFiles/hw2part2.dir/Exceptions.cpp.o: ../Exceptions.cpp
 CMakeFiles/hw2part2.dir/Exceptions.cpp.o: ../Exceptions.h
 

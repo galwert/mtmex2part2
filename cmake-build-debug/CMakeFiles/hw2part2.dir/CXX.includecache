@@ -26,10 +26,6 @@ exception
 string
 -
 
-/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Game.cpp
-Game.h
-/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Game.h
-
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Game.h
 iostream
 -
@@ -55,4 +51,22 @@ Character.h
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Soldier.h
 Character.h
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h
+
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/autoGameTester.cpp
+iostream
+-
+cassert
+-
+Exceptions.h
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Exceptions.h
+Game.h
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Game.h
+
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/gameTest.cpp
+iostream
+-
+cassert
+-
+Game.h
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Game.h
 

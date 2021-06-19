@@ -150,6 +150,33 @@ Auxiliaries.cpp.s:
 	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Auxiliaries.cpp.s
 .PHONY : Auxiliaries.cpp.s
 
+Character.o: Character.cpp.o
+
+.PHONY : Character.o
+
+# target to build an object file
+Character.cpp.o:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Character.cpp.o
+.PHONY : Character.cpp.o
+
+Character.i: Character.cpp.i
+
+.PHONY : Character.i
+
+# target to preprocess a source file
+Character.cpp.i:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Character.cpp.i
+.PHONY : Character.cpp.i
+
+Character.s: Character.cpp.s
+
+.PHONY : Character.s
+
+# target to generate assembly for a file
+Character.cpp.s:
+	$(MAKE) -f CMakeFiles/hw2part2.dir/build.make CMakeFiles/hw2part2.dir/Character.cpp.s
+.PHONY : Character.cpp.s
+
 Exceptions.o: Exceptions.cpp.o
 
 .PHONY : Exceptions.o
@@ -378,6 +405,9 @@ help:
 	@echo "... Auxiliaries.o"
 	@echo "... Auxiliaries.i"
 	@echo "... Auxiliaries.s"
+	@echo "... Character.o"
+	@echo "... Character.i"
+	@echo "... Character.s"
 	@echo "... Exceptions.o"
 	@echo "... Exceptions.i"
 	@echo "... Exceptions.s"
