@@ -14,6 +14,10 @@ string
 cmath
 -
 
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.cpp
+Character.h
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h
+
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h
 Auxiliaries.h
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Auxiliaries.h
@@ -44,13 +48,25 @@ Medic.h
 Sniper.h
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Sniper.h
 
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Medic.cpp
+Medic.h
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Medic.h
+
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Medic.h
 Character.h
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h
 
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Sniper.cpp
+Sniper.h
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Sniper.h
+
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Sniper.h
 Character.h
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Character.h
+
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Soldier.cpp
+Soldier.h
+/mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Soldier.h
 
 /mnt/c/Users/galwe/OneDrive/Desktop/technion/mtm/hw/hw2part2/Soldier.h
 Character.h

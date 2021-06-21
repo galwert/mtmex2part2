@@ -14,35 +14,45 @@ namespace mtm {
     }
 
 
-    char Sniper::getLetter() {
-        if (this->team == CROSSFITTERS) {
+    char Sniper::getLetter()
+    {
+        if (this->team == CROSSFITTERS)
+        {
             return SNIPER_CROSS_LETTER;
-        } else {
+        }
+        else
+        {
             return SNIPER_POWER_LETTER;
         }
     }
 
-    int Sniper::getMaxMove() {
+    int Sniper::getMaxMove()
+    {
         return SNIPER_MAX_MOVE;
     }
 
-    int Sniper::hitMultiplier() {
-        if (this->hit == SECOND) {
+    int Sniper::hitMultiplier() //checking if it is the third hit of the sniper
+    {
+        if (this->hit == SECOND)
+        {
             this->hit = ZERO;
-            return DOUBLE;
+            return DOUBLE;//it is a third hit. we do double damage
         }
-        if (this->hit == FIRST) {
+        if (this->hit == FIRST)
+        {
             this->hit = SECOND;
             return REGULAR;
         }
-        if (this->hit == ZERO) {
+        if (this->hit == ZERO)
+        {
             this->hit = FIRST;
             return REGULAR;
         }
         return REGULAR;
     }
 
-    std::shared_ptr<Character> Sniper::clone() const {
+    std::shared_ptr<Character> Sniper::clone() const
+    {
         return std::shared_ptr<Character>(new Sniper(this->team,this->health,
                                                      this->ammo, this->range,this->power, this->hit));
     }

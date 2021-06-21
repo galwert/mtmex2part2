@@ -3,33 +3,39 @@
 namespace mtm {
     bool Character::lowerHealth(int hit_points)
     {
-        if (this->health <= hit_points)
+        if (this->health <= hit_points)//the player has died from the hit
             return true;
         this->health -= hit_points;
         return false;
     }
 
-    Team Character::getTeam() {
+    Team Character::getTeam()
+    {
         return this->team;
     }
 
-    int Character::getPower() const {
+    int Character::getPower() const
+    {
         return power;
     }
 
-    void Character::lowerAmmo() {
+    void Character::lowerAmmo()
+    {
         this->ammo--;
     }
 
-    int Character::getAmmo() const {
+    int Character::getAmmo() const
+    {
         return this->ammo;
     }
 
-    int Character::getRange() const {
+    int Character::getRange() const
+    {
         return this->range;
     }
 
-     int Character::hitMultiplier() {
+     int Character::hitMultiplier()
+     {
         return 0;
     }
 }
